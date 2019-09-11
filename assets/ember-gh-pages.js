@@ -327,7 +327,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("ember-gh-pages/app")["default"].create({"name":"ember-gh-pages","version":"0.0.0+842ea965"});
+            require("ember-gh-pages/app")["default"].create({"name":"ember-gh-pages","version":"0.0.0+24c9d313"});
           }
         
 //# sourceMappingURL=ember-gh-pages.map
