@@ -2,6 +2,7 @@
   "name": "ember-gh-pages",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://magnobiet.github.io/ember-gh-pages/",
   "description": "Small description for ember-gh-pages goes here",
   "repository": "",
   "license": "MIT",
@@ -15,7 +16,9 @@
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve",
-    "test": "ember test"
+    "test": "ember test",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist/"
   },
   "devDependencies": {
     "@ember/jquery": "^0.6.0",
